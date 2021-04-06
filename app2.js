@@ -1,5 +1,5 @@
 const saludar  = ( nombre ) => {
-    return 'Hola ${nombre}'
+    return `Hola ${nombre}`;
 }
 
-console.log( saludar("Victor") );
+console.log( saludar('Victor') );

@@ -1,15 +1,16 @@
 console.log('Inicio del script');
 
 setTimeout(() => {
-    console.log('Primer time Out');
+    console.log('Primer timeout');
 }, 5000);
 
 setTimeout(() => {
-    console.log('Segundo time Out');
+    console.log('Segundo timeout');
 }, 0);
 
 setTimeout(() => {
-    console.log('Tercer time Out');
+    console.log('Tercer timeout');
 }, 0);
+
 
 console.log('Fin de script');
